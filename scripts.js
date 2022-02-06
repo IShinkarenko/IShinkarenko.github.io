@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded",  () => {
   function handleRedirectToExpandigoSearch() {
     const searchValue = searchInput.value
     const encryptedSearchValue = encryptSearchValue(searchValue)
-    const url = `http://localhost:3000/search-results/?q=${encryptedSearchValue}`
+    const url = `https://develop-app.expandigo.com/search-results/?q=${encryptedSearchValue}`
 
     window.open(url, '_blank');
   }
